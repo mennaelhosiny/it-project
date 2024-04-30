@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile page</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+          <a href="">comparas</a>
+    </div>
+    <div class="search">
+      <a href="">
+     <input type="text" placeholder="search category" id="input">
+         <!-- <button>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+         </button>  -->
+     </a>
+    </div>
+    <nav>
+          <a href="../eman/index.html">home</a>
+          <a href="../arwa/bestseller.html" target="_self">best seller</a>
+          <a href="../eman/categories.html">categories</a>
+          <a href="../belal/feedback.html">feedback</a>
+          <a href="../bassant/contact.html" target="_self">contact</a>
+          <a href="../tassnem/about.html" target="_self">about</a>
+          <a href="/osamaE/profile.html">profile</a>
+          
+    </nav>
+  </header>
+
+  <br><br><br>
+
+  <div class="all">
+    <div class="content">
+      <div class="container">
+
+        <h2 class="section"> &nbsp Profile Information    </h2>
+
+        <div class="description hidden">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" disabled value="Lionel andreas messi"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" disabled value="leo10@barca.com"><br><br>
+          <label for="shipping-address">Address:</label>
+          <input type="text" id="shipping-address" name="shipping-address" disabled
+           value="20 sevi st, barcelona,spain"><br><br>
+          <label for="contact-details">Contact Details:</label>
+          <input type="tel" id="contact-details" name="contact-details" disabled value="01210101030"><br><br>
+
+          <h2>Change Password</h2>
+
+          <label for="old pass">Old Password:</label>
+          <input type="password" id="old passw" name="oldpass" placeholder=" " value="old12345" required><br><br>
+          <label for="newpass">New Password:</label>
+          <input type="password" id="newpass" name="newpass" required minlength="6"><br><br>
+
+          <label for="confirm password">Confirm Pass:</label>
+          <input type="password" id="confirmpassword" name="confirm-password" required minlength="6"><br><br>
+
+          <input type="submit" value="SavePassword">
+
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="section"> &nbsp Current Deliveries    </h2>
+
+        <div class="description hidden">
+          <ul>
+
+            <strong>Order #612200</strong> - Shipped on April 20, 2024
+
+          <ul>
+            <li>
+              <img id="sora1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQppNNmgvCYHJlXLj5zvo3BZshNTNTZU4kbxA&usqp=CAU"
+                alt="Item 1">
+
+              <p> The Ordinary Natural Moisturizing
+                Factors + HA
+              </p>
+              <p>Price: $20</p>
+              <p>Shipping Price: $5</p>
+            </li>
+
+
+            <li>
+              <img id="sora2"
+                src="https://img.ltwebstatic.com/images3_pi/2023/05/14/16840732629ecf3c14857c0493f4c81a3a5a8e0392_thumbnail_405x552.webp"
+                alt="Item 2">
+              <p>
+                Geneva Memento Black Dial Analog
+                Leather Strap watch set for Men
+              </p>
+              <p>Price: $30</p>
+              <p>Shipping Price: $7</p>
+              <p>Status: Shipped</p>
+              <p>Estimated Delivery Date: April 25, 2024</p>
+              <p>Shipping by: DHL Shipping</p>
+              <p>
+
+                Order Actions:
+                <button onclick="requestReturn(' 612200')" disabled>Request Return</button>
+
+                <!-- disabled 3shan 3da a5r m3ad mmkn yt3ml feh return -->
+              </p>
+            </li>
+            </ul>
+            <strong>Order #615780</strong> Shipped on April 18, 2024
+
+            <ul>
+                <li>
+              <img id="sora3"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZBPMpDpsB0OCq_ki3IAmKvyM1jsBKlWFwhQ&usqp=CAU"
+                alt="Item 3">
+
+              <p> Travis Scott Air Jordan 1</p>
+              <p>Price: $140</p>
+              <p>Shipping Price: $6</p>
+              <p>Status: Shipped</p>
+              <p>Estimated Delivery Date: April 22, 2024</p>
+              <p>Shipping by: Fedex Shipping</p>
+              <p>
+                Order Actions:
+
+                <button onclick="requestReturn(' 615780')">Request Return</button>
+              </p>
+            </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <!-- 000000000000000000000000000000000-->
+      <div class="container">
+        <h2 class="section"> &nbsp Wishlist</h2>
+        <div class="description hidden">
+
+          <ul>
+            <li>
+              <img id="sora4"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3w9bCRNkL_120-XeAC_OFQd3ndLnpFF-l_A&usqp=CAU"
+                alt="Wishlist Item 1">
+
+              <p>DERMACTIVE shampoo</p>
+              <p>Description:TRICHO-ACT Anti Dandruff Shampoo</p>
+              <p>Price: <del>$10</del> $7.5</p>
+              <p>In Stock</p>
+              <p>Discount: 25% off</p>
+
+              <p>
+                <button onclick="addToCart('wishli st_item1')">Add to Cart</button>
+                <button onclick="removeFromWishlist('wishlist_item1')">Remove from Wishli st</button>
+
+              </p>
+            </li>
+
+            <li>
+              <img id="sora5"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_K5NEPe9EEa0QYDdxsLLcWmAfnd0RFaO4w&usqp=CAU"
+                alt="Wishlist Item 2">
+
+              <p>TANMKA sweater</p>
+              <p>Description:Autumn Winter Vintage Striped Sweater Men </p>
+              <p>Price: $30</p>
+              <p>Out of Stock</p>
+              <p>Discount: None</p>
+
+              <p>
+                <button onclick="addToCart('wishlist_item2')" disabled>Add to Cart</button>
+                <button onclick="removeFromWishlist('wishlist_item2')">Remove from Wishlist</button>
+
+              </p>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="section"> &nbsp Saved Addresses</h2>
+        <div class="description hidden">
+          <ul>
+            <li>
+              <strong>Address 1</strong>
+              <p>Lionel Messi</p>
+              <p>5 catalonia Street</p>
+              <p>City: Barcelon</p>
+              <p>Country: Spain</p>
+
+              <p>
+
+                <button onclick="deleteAddress('home')">remove</button>
+
+              </p>
+
+            </li>
+
+            <li>
+
+              <strong>Work Address</strong>
+              <p>Lionel Messi</p>
+              <p>456 camp nou</p>
+              <p>City: Barcelona</p>
+              <p>Country: Spain</p>
+              <p>
+                <button onclick="deleteAddress('home')">remove</button>
+
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="section"> &nbsp Order History</h2>
+
+        <div class="description hidden">
+          <ul>
+
+            <li>
+
+              <strong>Order #615277</strong> - Canceled on April 15, 2024
+
+              <ul>
+                <li>
+                  <img id="sora6"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNd0WL_zDq7pyuB1IJ2PGE0DWzk2qidOchA&usqp=CAU"
+                    alt="Item 1">
+                  <p>barcelona sweater</p>
+                  <p>Price: $170</p>
+                  <p>Quantity: 2</p>
+                  <p>Total: $340</p>
+
+                </li>
+                <hr>
+                <li>
+
+                  <img id="sora7"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwZw-3kPOo7u0Yit-h3yJ5qGLjMME05IVtg&usqp=CAU"
+                    alt="Item 2">
+
+                  <p>ADILETTE AQUA SLIDES</p>
+                  <p>Price: $30</p>
+                  <p>Quantity: 1</p>
+                  <p>Total: $30</p>
+
+               </li>
+
+              </ul>
+            </li>
+            <li>
+
+              <strong>Order #612788</strong> - Delivered on April 10,2024
+
+              <ul>
+
+                <li>
+
+                  <img id="sora8"
+                    src="https://assets.adidas.com/images/w_1880,f_auto,q_auto/534b20d29e634d87bec4af0100fe7c60_9366/IB9997_01_standard.jpg"
+                    alt="Item 3">
+
+                  <p>ADICOLOR TREFOIL BUCKET HAT</p>
+                  <p>Price: $25</p>
+                  <p>Quantity: 1</p>
+                  <p>Total: $25</p>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--lmfrod n7ot link l page-->
+      <a href="../osamaA/login.html">
+
+        <button class="logout-button">Log Out</button>
+    </div>
+
+    <div class="sidebar">
+      <a href="https://eg.puma.com/eg/en/sports/football/ac-milan">
+
+      </a>
+      <h4>buy now</h4>
+      <table>
+      <tr>
+        <td>
+          <img id="side1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9Nk63XaaOlpmWMaX3hkgYXjwRBCPyZQJUg&usqp=CAU"
+            alt="Image 1">
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          <img id="side2"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUpddcjWNS4traWk-j7Jd7YBMXjZUnM8eWg&usqp=CAU"
+            alt="Image 2">
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <img id="side3"
+           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9Nk63XaaOlpmWMaX3hkgYXjwRBCPyZQJUg&usqp=CAU"
+            alt="Image 1">
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <img id="side2"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUpddcjWNS4traWk-j7Jd7YBMXjZUnM8eWg&usqp=CAU"
+            alt="Image 2">
+        </td>
+      </tr>
+    </table>
+    </div>
+  </div>
+  <script src="../eman/main.js"></script>
+</body>
+
+</html>

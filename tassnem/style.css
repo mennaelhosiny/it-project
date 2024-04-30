@@ -1,0 +1,277 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+body {
+
+text-align: center;
+background-color: rgb(8, 102, 255);
+margin: 0;
+padding: 0;
+
+} 
+html {
+  box-sizing: border-box;
+}body, h1, p {
+  margin: 0;
+  padding: 40;
+}
+/* Header styling */
+
+header{
+  background-color: rgb(8, 102, 255);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 999;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+header .logo{
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  font-weight: 900;
+  color: rgb(184, 49, 205)
+   }
+
+/* header img{
+ height: 80px;
+width: 110px; }  */
+
+nav {
+height: 60px;
+cursor: pointer;
+width: 50%;
+display: flex;
+justify-content: space-around;
+padding-top: 15px;
+ 
+}
+nav a{
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fafbfb;
+  border-bottom: 2px solid transparent;
+
+}
+
+header nav a:hover{
+  text-decoration: underline;
+  font-size: larger;
+}
+
+header .search input{
+  
+display: block; 
+width: 250px;
+height: fit-content;
+padding: 5px;
+box-sizing: border-box;
+border: 1px solid #ddd;
+border-radius: 10px;
+
+ 
+}
+
+
+.container {
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+header h1 {
+margin: 0;
+font-size: 58px;
+}
+header p {
+margin: 0;
+font-size: 24px;
+}
+.item {
+background-color: #fff;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(251, 249, 249, 0.3);
+margin-bottom: 20px;
+font-size: 10px;
+text-align: center;
+}
+.item:hover{
+transform: scale(1.2);
+}
+.item img {
+max-width: 30%;
+height:auto;
+margin-bottom: 2px;
+}
+.item h2 {
+margin-top: 0;
+font-size: 24px;
+}
+.item p.price {
+font-size: 20px;
+margin-bottom: 5px;
+padding: 7px;
+}
+.item p.price span {
+color: #999;
+text-decoration:line-through;
+margin-left: 10px;
+}
+.item a.btn {
+display:inline-block;
+background-color: #4e1c52;
+color: #fff;
+font-size: 14px;
+padding: 10px;
+border-radius: 15px;
+margin-top: 5px;
+cursor:pointer;
+text-decoration: none;
+visibility: hidden;
+opacity: 0;
+transition: opacity 0 s linear;
+}
+.item:hover a.btn {
+background-color: #84088a;
+visibility: visible;
+opacity: 2;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+}
+.item {
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
+}
+
+img {
+width: 250px;
+height: 250px;
+object-fit:cover;
+margin-right: 20px;
+}
+
+    .select-category{
+      border-radius: 1px;
+      box-shadow: #333;
+      position: absolute;
+      margin-top: 40px;
+      background-color: #fffdfd;
+    }    
+   
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.container {
+width: 1300px;
+padding-left: 90px;
+}
+.item {
+background-color: #fff;
+padding: 10px;
+border-radius: 20px;
+/*box-shadow: 0 0 10px rgba(251, 249, 249, 0.3);*/
+text-align: center;
+margin-bottom: 20px;
+font-size: 10px;
+max-width: 960px;
+margin: 10px;
+}
+.item:hover{
+transform: scale(1.2);
+}
+.item img {
+max-width: 30%;
+height:auto;
+margin-bottom: 2px;
+}
+.item h2 {
+margin-top: 0;
+font-size: 24px;
+}
+.item p.price {
+font-size: 20px;
+margin-bottom: 5px;
+padding: 7px;
+}
+.item p.price span {
+color: #999;
+text-decoration:line-through;
+margin-left: 10px;
+}
+.item a.btn {
+display:inline-block;
+background-color: #4a0d42;
+color: #fff;
+font-size: 14px;
+padding: 10px;
+border-radius: 15px;
+margin-top: 5px;
+cursor:pointer;
+text-decoration: none;
+visibility: hidden;
+  opacity: 0;
+  transition: opacity 0 s linear;
+}
+.item:hover a.btn {
+background-color: #4d1347;
+visibility: visible;
+opacity: 2;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+}
+
+.image-row {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+} 
+
+body button{
+  width: 80px;
+  height: 50px;
+  font-size: medium;
+}
+.goback a{
+  text-decoration:solid;
+  font-size:large;
+  font-style:oblique;
+  color: #4512fe;
+  position: relative;
+  bottom: 20px;
+  
+}

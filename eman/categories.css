@@ -1,0 +1,143 @@
+/* standerization elements */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/* constents */
+:root {
+    --mainPadding: 200px;
+    --mainColor1: rgb(8, 102, 255);
+    
+}
+
+/* styling header */
+
+header{
+    background-color: rgb(8, 102, 255);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+header .logo{
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: rgb(184, 49, 205)
+     }
+ 
+ /* header img{
+   height: 80px;
+  width: 110px; }  */
+
+nav {
+  height: 60px;
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+   
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #fafbfb;
+    border-bottom: 2px solid transparent;
+
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+header .search input{
+    
+  display: block; 
+  width: 250px;
+  height: fit-content;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+ 
+   
+}
+section {
+    padding: 100px var(--mainPadding);
+    background-color: rgb(255, 255, 255);
+}
+.categories{
+    background-color: rgb(241, 214, 245);
+  }
+  
+  
+  table{
+    display: table;
+    width: 100%;
+    /* border: 1px solid #E7DDFF; */
+    border: 1px solid rgb(241, 214, 245);
+    border-spacing: 1px;
+    /* background-color: #E7DDFF; */
+    background-color: rgb(241, 214, 245);
+  }
+  td{
+    padding: 10px;
+    
+  }
+  table thead td{
+      background-color: rgb(241, 214, 245);
+      font-weight: bold;
+      font-size: 1.2em;
+      text-align: center;
+      color: rgb(8, 102, 255);
+  }
+  table img{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+  }
+  tr a{
+    color:rgb(184, 49, 205) ;
+  }
+  td{
+    color: rgb(8, 102, 255);
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  footer {
+    background-color: rgb(8, 102, 255);
+    width: 100%;
+    height: 70px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+
+footer p {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+footer p span {
+    color: purple;
+}
+
+footer .social-icons a {
+    padding: 5px;
+}
+  

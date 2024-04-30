@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>template1</title>
+          
+           <link rel="stylesheet" href="style.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    </head>
+  <body>
+</head>
+<body>
+    <div id="textContent">
+   <header>
+    <button id='switch-style-btn'>switch theme</button>
+      <div class="logo">
+            <a href="">comparas</a>
+      </div>
+      <div class="search-container">
+                
+        <input type="text" id="searchInput"  placeholder="search products" >
+         
+         <button onclick="searchFunction()">search</button>
+             <!-- <button>
+                 <i class="fa-solid fa-magnifying-glass"></i>
+             </button>  -->
+         
+       </div>
+      <nav>
+            <a href="../eman/index.html">home</a>
+            <a href="../arwa/bestseller.html" target="_self">best seller</a>
+            <a href="../eman/categories.html">categories</a>
+            <a href="../belal/feedback.html">feedback</a>
+            <a href="../bassant/contact.html" target="_self">contact</a>
+            <a href="../tassnem/about.html" target="_self">about</a>
+            <a href="../osamaE/profile.html">profile</a>
+            
+      </nav>
+    </header>
+        <div class="container">
+            <div class="select-category">
+                <h5>Category</h5>
+                <p>Personal care</p>
+                <h5>Skin-care</h5>
+                <input type="radio" id="Body" name="type" value="Body">
+                <label for="Body">Body</label><br>
+                <input type="radio" id="Eyes" name="type" value="Eyes">
+                <label for="Eyes">Eyes</label><br>
+                <input type="radio" id="Face" name="type" value="Face">
+                <label for="Body">Face</label>
+                <h5>Prices range</h5>
+                <label>prices</label>
+                <div class="price-filter">
+                    <input type="range" id="priceSlider" min="0" max="10000" step="100" value="2500">
+                    <div class="price-input">
+                        <input type="number" id="minPrice" value="2500">
+                        <span>-</span>
+                        <input type="number" id="maxPrice" value="7500">
+                        <button id="applyButton">Apply</button>
+                    </div>
+                 </div>
+        <div class="image-row">
+            <div class="item">
+                <img src="../project-photos/moisturizer.jpg" alt="item">
+                <h2>cerave moisturizer</h2>
+                <p>consists of MG <sub>2</sub>O</p>
+                <p>Providing protection for your skin.</p>
+                <p> Maintaining hydration.</p>
+                <p>Soothing your skin.</p>
+                
+                <p class="price">EGP 200 </br><span>EGP 250</span></p>
+                <a href="#" class="btn">Add to cart</a> 
+            </div>
+            <div class="item">
+                <img src="../project-photos/undereye cream.jpg" alt="item">
+                <h2>under-eye cream</h2>
+                <p>reduces dark circles.</p>
+                <p>reduces signs of ageing. </p>
+                <p class="price"> EGP 300</br><span>EGP 450</span></p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            
+            <div class="item">
+                <div class="goback">
+                    <a href="page2.html">watch l'oreal Hyaluronic acid benefits</a>
+                </div>
+                <img src="../project-photos/hyaloronic.webp" alt="item">
+                <h2>hyaloronic acid</h2>
+                  <p>  Makes skin stronger,smoother and brighter.</p>
+                  <p>  Reduces inflammation,redness and blotchiness.</p>
+                <p class="price">EGP 500</br><span>EGP 750</span></p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+        <div class="image-row">
+            <div class="item">
+                <img src="../project-photos/sunblock.jpg" alt="item">
+                <h2>La roche-posay sunblock </h2>
+                <p>Preventing discoloration1.</p>
+                <p>Maintaining an even skin tone.</p>
+                 <p>Protecting from blue light</p>
+                <p class="price">EGP 700<br><span>EGP 900</span></p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="item">
+                <img src="../project-photos/vitamin  c.jpg" alt="item">
+                <h2> vitamin c</h2>
+                  <p>  Boost collagen production.</p>
+                  <p>  Reduce the appearance of dark spots.</p>
+                  <p>  Reduce the appearance of early aging.</p>
+                <p class="price">EGP 800</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="item">
+                <img src="../project-photos/lip therapy.jpeg" alt="item">
+                <h2>vaseline lip therapy </h2>
+                <p>prevents dryness and cracking></p>
+                <p>Heals chapped lips and soothing soreness</p>
+                <p class="price">EGP 400 <br><span>EGP 600</span></p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    <div class="image-row">
+            <div class="item">
+                <img src="../project-photos/luna.jpg" alt="item">
+                <h2>Luna Set Of 5 Pcs -198.5 Gm</h2>
+                <p> makes your skin hydrated</p>
+                <p class="price">EGP 150<br> <span>EGP 180</span></p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="item">
+                <img src="../project-photos/body scrub.jpg" alt="item">
+                <h2>body scrub</h2>
+                  <p>allows your skin to absorb moisturizer better.</p>
+               <p>removes dead skin cell buildup.</p>
+                <p class="price">EGP 30 <br><span>EGP 50</span> </p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="item">
+                <img src="../project-photos/starvilee.jpg" alt="Product 9">
+                <h2>starville cleanser  </h2>
+                <p>cleans your skin gently.</p>
+                <p>makes your skin breathe.</p>
+                <p class="price">EGP 230</p>
+
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Online Shopping Site</p>
+        </div>
+    </footer>
+    <script src="../eman/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: rgb(241, 214, 245);
+  } 
+  html {
+    box-sizing: border-box;
+  } 
+  body h1 p {
+    margin: 50;
+    padding: 200;
+}
+header{
+  background-color: rgb(8, 102, 255);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 999;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+header .logo{
+  font-style: italic;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  font-weight: 900;
+  color: rgb(184, 49, 205)
+   }
+
+/* header img{
+ height: 80px;
+width: 110px; }  */
+
+nav {
+height: 60px;
+cursor: pointer;
+width: 50%;
+display: flex;
+justify-content: space-around;
+padding-top: 15px;
+ 
+}
+nav a{
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fafbfb;
+  border-bottom: 2px solid transparent;
+
+}
+
+header nav a:hover{
+  text-decoration: underline;
+  font-size: larger;
+}
+
+header .search input{
+  
+display: block; 
+width: 250px;
+height: fit-content;
+padding: 5px;
+box-sizing: border-box;
+border: 1px solid #ddd;
+border-radius: 10px;
+
+ 
+}
+
+  /* .navbar {
+    display: flex;
+  
+  
+  }
+  .navbar  a{
+    font-size: 17px;
+    margin:0 25px;
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+    overflow:right;
+    margin-right: 150px;
+  }
+  
+  .navbar  a::before{
+    content: ' ';
+    position: absolute;
+    background: #111;
+    left: 0;
+    height: 2px;
+    bottom: -3px;
+    width: 0%;
+    transition: .2s ease;
+    
+  }
+  .navbar  a:hover::before{
+    width: 100%;
+  }
+   */
+  .about-us{
+    color: black;
+    text-align: center;
+    margin-bottom: 150px;
+      text-decoration: underline;
+      text-underline-offset: 20px;
+      padding: 40px;/*make vertical space*/
+  }
+  .about-section {
+    padding: 50px;/*make vertical space*/
+    text-align: center;
+    background-color: rgb(8, 102, 255);
+    color: rgba(15, 32, 33, 0.596);
+  }
+  .us{
+    text-align: center;
+    padding: 40px;}
+
+.flash-sale-container {
+      width: 100%;
+    }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+      align-items: center;
+    }
+  }

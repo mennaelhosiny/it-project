@@ -1,0 +1,227 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color:#57838D
+    }
+    body{
+        background-color:#fdfdfd
+    }
+    
+    #box {
+        background-color:rgb(255, 255, 255) ;
+      width:700px;
+    margin: auto;
+    border-radius: 25px;
+    height: 400px;
+    box-shadow: rgb(8, 102, 255) 1px 15px 100px 5px;
+    margin-top: 10%;
+    }
+    #img{
+        display: inline;
+        padding-left: 690px;
+}        
+
+#satsfiued{
+    display: inline;
+  
+
+}
+#par1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: small;
+    text-align: left;
+    padding-left: 15px;
+margin-top: 40px;
+display: inline;
+}
+
+
+#par2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: small;
+    text-align: right;
+    display: inline;
+    padding-left: 100px;
+}
+
+
+#yses{
+    padding-left: 250px;
+    padding-bottom: 15px;
+}
+
+#ysesss{
+    padding-left: 15px;
+}
+
+.rating {
+    display: inline;
+    padding-left: 265px;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 30px;
+  }
+  
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: #6f00ff;
+    transition: color 0.3s;
+  }
+  
+
+#par3{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: gray;
+font-size: small;
+padding-left: 15px;
+display: inline;
+}
+
+
+#par4{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: gray;
+font-size: small;
+padding-left: 130px;
+}
+
+
+
+#ysessss{
+      padding-left: 15px;
+ }
+
+ #ysesssss{
+    padding-left: 260px;
+ }
+
+ #txt{
+border-radius: 25px;
+font-size: large;
+width: 600px;
+height: 100px;
+margin-top:  30px;
+margin-left: 35px;
+
+ }
+#sub{
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to left,rgb(8, 102, 255),rgb(8, 102, 255));
+  letter-spacing: 0.7px; 
+  margin-left: 270px;
+  margin-top: 25px;
+ 
+} 
+
+
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    text-decoration: none;
+ }
+:root {
+    --mainPadding: 200px;
+    --mainColor1: rgb(8, 102, 255);
+
+}
+header{
+    background-color: rgb(8, 102, 255);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: -154PX;
+}
+header .logo{
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: rgb(184, 49, 205)
+     }
+ 
+header img{
+   height: 80px;
+  width: 110px; }
+
+nav {
+  height: 60px;
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #fafbfb;
+    border-bottom: 2px solid transparent;
+
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+header .search input{
+
+  display: block; 
+  width: 250px;
+  height: fit-content;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+ 
+
+}
+
+#osama{
+  width: 200px;
+  height: 100px;
+  }

@@ -1,0 +1,144 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+            
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: WHITE;
+margin: 0 auto;
+padding: 0px;
+}
+
+.container {
+max-width: 960px;
+margin: 100 auto;
+padding: 0px;
+}
+
+header {
+background-color: rgb(8, 102, 255);
+color: #fff;
+text-align: center;
+padding: 30px;
+}
+
+header h1 {
+margin: 0;
+font-size: 58px;
+}
+
+header p {
+margin: 0;
+font-size: 24px;
+}
+
+.product {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+text-align: center;
+margin-bottom: 20px;
+}
+
+.product img {
+max-width: 30%;     
+height: auto;
+margin-bottom: 2px;
+}
+
+.product h2 {
+margin-top: 0;
+font-size: 24px;
+}
+
+.product p.price {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.product p.price span {
+color: #999;
+text-decoration: line-through;
+margin-left: 10px;
+}
+
+.product a.btn {
+display: inline-block;
+background-color:rgb(8, 102, 255);
+color: #fff;
+font-size: 16px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.product a.btn:hover {
+background-color: orange;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+}
+
+
+
+.flash sale .box-container{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+gap: 1.5rem;
+align-items: flex-start;
+justify-content: center;
+}
+
+.prduct {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
