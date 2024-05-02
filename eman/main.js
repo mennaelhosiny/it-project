@@ -51,3 +51,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// validation
+function searchFunction() {
+    var searchInput = document.getElementById("searchInput").value;
+    if (searchInput.trim() === "") {
+        alert("Please enter a search query.");
+        return false;
+    }
+    return true;
+}
+
+window.onload = function() {
+    var form = document.getElementById("searchForm");
+    form.onsubmit = function() {
+        return searchFunction();
+    };
+};
