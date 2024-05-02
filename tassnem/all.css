@@ -78,7 +78,7 @@
         
       }
       .background{
-      background: url(../images/allproducts.jpg)fixed;}
+      background: url(./bg.jpeg)fixed;}
       .containsearchbar::-webkit-scrollbar{
         display: none;
       }
@@ -124,7 +124,8 @@ text-align:right;
   box-sizing: border-box;
      position: absolute; 
       margin-top: 7px; 
-   padding-top: 10px;
+      padding-top: 10px;
+      display: flex;
     
   }  
 .container  .select-category h5{
@@ -353,7 +354,7 @@ body{
   background-color: rgb(255, 255, 255);
 }
 .aboutusbackground{
-  background: url(../images/ab2.jpg);
+  background: url(./WhatsApp\ Image\ 2024-05-02\ at\ 5.33.45\ PM.jpeg);
 background-size:cover ;}
 *{
   font-family: 'Poppins', sans-serif;
